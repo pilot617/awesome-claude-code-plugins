@@ -65,6 +65,27 @@ General-purpose web automation agent that navigates websites, interacts with UI 
 
 [Full documentation](./plugins/web-agent/README.md)
 
+### [hermes-tweet](./plugins/hermes-tweet) - Hermes Agent X/Twitter Plugin Workflow
+
+Read-first workflow for installing and operating the native Hermes Agent
+X/Twitter plugin. It helps teams use X search, account reads, trend research,
+monitoring, giveaway audits, and controlled account actions from Hermes Agent.
+
+```
+Use Hermes Tweet to set up read-only X trend research for this Hermes Agent.
+Use Hermes Tweet to plan a controlled posting workflow with explicit approvals.
+```
+
+**What it does:**
+- Guides native Hermes Tweet installation and runtime setup
+- Keeps agents on `tweet_explore` and `tweet_read` before any action route
+- Documents the `XQUIK_API_KEY` and `HERMES_TWEET_ENABLE_ACTIONS` gates
+- Fits social listening, launch monitoring, support triage, and audits
+
+**Requires:** Hermes Agent v0.16.0 or compatible, Python 3.11+, Xquik API key
+
+[Full documentation](./plugins/hermes-tweet/README.md)
+
 ## Philosophy
 
 - **Solve real problems** — every plugin addresses a genuine pain point in the development workflow

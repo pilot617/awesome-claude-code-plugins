@@ -1,0 +1,9 @@
+{
+  "name": "hermes-tweet",
+  "description": "Hermes Agent X/Twitter plugin workflow for read-first social research and opt-in account actions.",
+  "version": "0.1.6",
+  "author": {
+    "name": "Xquik",
+    "url": "https://github.com/Xquik-dev"
+  }
+}
