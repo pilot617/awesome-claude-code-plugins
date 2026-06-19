@@ -65,6 +65,27 @@ General-purpose web automation agent that navigates websites, interacts with UI 
 
 [Full documentation](./plugins/web-agent/README.md)
 
+### [notfair](./plugins/notfair) — SEO, GEO & Paid Ads Skills
+
+Open-source Claude Code skills for SEO, GEO (generative engine optimization), Google Ads, and Meta Ads. Connects to live account data through Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.
+
+```
+/notfair "Audit the SEO health of example.com"
+/notfair "Find wasted spend in my Google Ads account over the last 30 days"
+/notfair "Audit my Meta Ads campaigns for creative fatigue"
+/notfair "Generate JSON-LD schema markup for my product pages"
+```
+
+**What it does:**
+- SEO: site audits, keyword research, meta tag optimization, schema markup generation, GEO for AI search visibility
+- Google Ads: account audits, wasted spend detection, search term cleanup, keyword and bid management
+- Meta Ads: ROAS analysis, creative fatigue detection, audience overlap analysis
+- Works with live MCP data for account analysis; no MCP needed for content generation tasks
+
+**Requires:** MCP connections for live-data tasks (Google Ads MCP, Meta Ads MCP, Google Search Console MCP, Google Analytics (GA4) MCP); none for content generation
+
+[Full documentation](./plugins/notfair/README.md)
+
 ## Philosophy
 
 - **Solve real problems** — every plugin addresses a genuine pain point in the development workflow

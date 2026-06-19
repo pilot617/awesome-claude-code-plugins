@@ -32,6 +32,14 @@
       "version": "1.0.0",
       "keywords": ["web", "automation", "browser", "playwright", "scraping", "navigation", "forms", "login"],
       "category": "automation"
+    },
+    {
+      "name": "notfair",
+      "source": "./plugins/notfair",
+      "description": "Open-source Claude Code skills for SEO, GEO, Google Ads, and Meta Ads — connects to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP",
+      "version": "1.0.0",
+      "keywords": ["seo", "google-ads", "meta-ads", "marketing", "paid-ads", "keyword-research", "schema-markup", "geo"],
+      "category": "marketing"
     }
   ]
 }
