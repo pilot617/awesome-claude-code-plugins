@@ -65,6 +65,27 @@ General-purpose web automation agent that navigates websites, interacts with UI 
 
 [Full documentation](./plugins/web-agent/README.md)
 
+### [tree-ring-memory](./plugins/tree-ring-memory) — Local-First Agent Memory
+
+Memory lifecycle guidance for Claude Code agents using the open-source
+[Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) CLI.
+
+```
+/tree-ring-memory:tree-ring-recall
+/tree-ring-memory:tree-ring-capture
+/tree-ring-memory:tree-ring-audit
+```
+
+**What it does:**
+- Recalls durable project context before context-dependent work
+- Captures validated lessons, decisions, and warnings without storing transcripts
+- Audits stale or sensitive memory with explicit forget, redact, and supersede flows
+- Keeps memory local-first through a project `.tree-ring` store and SQLite-backed CLI
+
+**Requires:** Tree Ring Memory CLI
+
+[Full documentation](./plugins/tree-ring-memory/README.md)
+
 ## Philosophy
 
 - **Solve real problems** — every plugin addresses a genuine pain point in the development workflow
