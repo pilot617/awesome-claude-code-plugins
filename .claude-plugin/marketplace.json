@@ -32,6 +32,14 @@
       "version": "1.0.0",
       "keywords": ["web", "automation", "browser", "playwright", "scraping", "navigation", "forms", "login"],
       "category": "automation"
+    },
+    {
+      "name": "tree-ring-memory",
+      "source": "./plugins/tree-ring-memory",
+      "description": "Local-first memory lifecycle guidance for Claude Code using Tree Ring Memory",
+      "version": "0.1.0",
+      "keywords": ["memory", "agent-memory", "local-first", "privacy", "recall", "sqlite", "skills"],
+      "category": "workflow"
     }
   ]
 }
