@@ -65,6 +65,14 @@ General-purpose web automation agent that navigates websites, interacts with UI 
 
 [Full documentation](./plugins/web-agent/README.md)
 
+### [shipvela](./plugins/shipvela) — Website Publishing
+
+Publish a supported website through Shipvela's hosted OAuth MCP connection, then inspect deployment status and build logs. Static uploads require owner review; a free Shipvela account includes 3 projects and 20 publishes/month.
+
+```shell
+/plugin install shipvela@awesome-claude-code-plugins
+```
+
 ## Philosophy
 
 - **Solve real problems** — every plugin addresses a genuine pain point in the development workflow

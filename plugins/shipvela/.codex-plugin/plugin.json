@@ -1,0 +1,39 @@
+{
+  "name": "shipvela",
+  "version": "0.2.0",
+  "description": "Publish websites from your coding assistant with owner confirmation, deployment status and a live HTTPS URL.",
+  "author": {
+    "name": "Content Petit LLC",
+    "email": "hello@shipvela.com",
+    "url": "https://shipvela.com"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Shipvela",
+    "shortDescription": "Publish websites from your AI",
+    "longDescription": "Bring your website to Shipvela from ChatGPT, Codex, Claude or Cursor. Inspect your connected projects, publish GitHub repositories, prepare small prebuilt static websites for owner confirmation, follow deployments and troubleshoot build logs. Local static builds publish through the separately authorized Shipvela CLI. A verified Shipvela account is required; GitHub builds need a connected repository. Hobby includes 3 projects and 20 publishes per month. Larger plans are available in Shipvela billing. Shipvela does not provision databases or arbitrary long-running servers.",
+    "developerName": "Content Petit LLC",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Publish GitHub websites",
+      "Prepare static websites for owner review",
+      "Check deployment status and live URLs",
+      "Read bounded build logs",
+      "Inspect project and publish allowances"
+    ],
+    "websiteURL": "https://shipvela.com",
+    "supportURL": "https://shipvela.com/support",
+    "privacyPolicyURL": "https://shipvela.com/privacy",
+    "termsOfServiceURL": "https://shipvela.com/terms",
+    "defaultPrompt": [
+      "Show my Shipvela projects and publishing allowance.",
+      "Publish my website on Shipvela and return its live URL.",
+      "Help me fix a failed Shipvela deployment."
+    ],
+    "brandColor": "#171717",
+    "brandColorDark": "#E8E5DD",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg"
+  }
+}

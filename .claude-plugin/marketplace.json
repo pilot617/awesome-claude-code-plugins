@@ -32,6 +32,14 @@
       "version": "1.0.0",
       "keywords": ["web", "automation", "browser", "playwright", "scraping", "navigation", "forms", "login"],
       "category": "automation"
+    },
+    {
+      "name": "shipvela",
+      "source": "./plugins/shipvela",
+      "description": "Owner-reviewed website publishing, deployment status and build logs through Shipvela OAuth MCP.",
+      "version": "0.2.0",
+      "keywords": ["hosting", "deployment", "static-sites", "mcp"],
+      "category": "deployment"
     }
   ]
 }
